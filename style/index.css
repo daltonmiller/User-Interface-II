@@ -1,1 +1,142 @@
 /* Add CSS styling here */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 10px;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+header {
+    background-color: grey;
+    height: 450px;
+    width: 100%;
+    
+    
+   }
+   .header{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+   }
+   h1 {
+       color: white;
+       display: flex;
+       justify-content: center;
+       font-size: 50px;
+   }
+   nav {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       
+       
+       
+
+   }
+   h2{
+       color:white;
+       display:flex;
+       align-items: center;;
+       justify-content: center;
+       font-size: 35px;
+      
+       
+   }
+   .header p{
+       color: white;
+       display: flex;
+       align-items: center;
+       justify-content: space-evenly;
+       
+   }
+   .home{
+       background-color: antiquewhite;
+       border:1px solid black;
+       color:black;
+       padding: 15px 32px;
+   }
+ 
+    .about {
+        background-color: antiquewhite;
+        border:1px solid black;
+        color:black;
+        padding: 15px 32px;
+   }
+
+   .projects {
+    background-color: antiquewhite;
+    border:1px solid black;
+    color:black;
+    padding: 15px 32px;}
+  
+   
+   .contact{
+    background-color: antiquewhite;
+    border:1px solid black;
+    color:black;
+    padding: 15px 32px;
+
+   }
+   .middle img{
+       width: 100%;
+       height: 500px;
+   }
+   .footer{
+       height: 600px;
+       width:100%;
+       background-color: cadetblue;
+   }
+   .footer h4{
+       font-size: 30px;
+       display: flex;
+       justify-content: space-between;
+   }
+   .middle{
+       display: flex;
+       align-items: center;
+   }
+  
+   
+   .footer img{
+       width: 15%;
+       height: 90%;
+       border: 7px solid peru;
+
+   }
+   .media{
+       display:flex;
+       align-items: center;
+       justify-content: center;
+       background-color: antiquewhite;
+       border:1px solid black;
+       color:black;
+       padding: 15px 32px;
+       
+   }
+ .bottom{
+     display: flex;
+     justify-content:center;
+     align-items: center;
+    
+ }
+ .selected-button{
+     background-color: black;
+     color:white;
+ }
+  
+
+  
