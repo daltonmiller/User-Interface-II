@@ -12,18 +12,91 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 10px;
+	margin: 5px;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
+html {
+    font-size: 62.5%;
+    margin-right: 30px;
+}
+
+@media (max-width: 500px){
+    nav {
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .footer .middle img {
+        width: 40%;
+       
+    }
+    .middle{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    p {
+        margin-bottom: 40px;
+    }
+    h1 {
+        margin-top: 30px;
+    }
+   h4 {
+       margin-left: 50px;
+   }
+   .bottom {
+       background-color: grey;
+      
+   }
+   
+   
+
+    
+}
+@media (max-width: 800px){
+    nav {
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .footer .middle img {
+        width: 40%;
+       
+    }
+    .middle{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    p {
+        margin-bottom: 40px;
+    }
+    h1 {
+        margin-top: 30px;
+    }
+   h4 {
+       margin-left: 50px;
+   }
+   .bottom {
+       background-color: grey;
+      
+   }
+
+   
+   
+
+    
+}
 
 header {
     background-color: grey;
     height: 450px;
     width: 100%;
+    border-radius: 15px;
     
     
    }
@@ -36,12 +109,14 @@ header {
        color: white;
        display: flex;
        justify-content: center;
-       font-size: 50px;
+       font-size: 3.5rem;
    }
    nav {
        display: flex;
        align-items: center;
        justify-content: center;
+       
+       
        
        
        
@@ -68,6 +143,7 @@ header {
        border:1px solid black;
        color:black;
        padding: 15px 32px;
+       border-radius: 15px;
    }
  
     .about {
@@ -75,13 +151,16 @@ header {
         border:1px solid black;
         color:black;
         padding: 15px 32px;
+        border-radius: 15px;
    }
 
    .projects {
     background-color: antiquewhite;
     border:1px solid black;
     color:black;
-    padding: 15px 32px;}
+    padding: 15px 32px;
+    border-radius: 15px;
+}
   
    
    .contact{
@@ -89,16 +168,20 @@ header {
     border:1px solid black;
     color:black;
     padding: 15px 32px;
+    border-radius: 15px;
 
    }
    .middle img{
        width: 100%;
        height: 500px;
+       border-radius: 15px;
    }
    .footer{
-       height: 600px;
+       height: 100%;
        width:100%;
        background-color: cadetblue;
+       border-radius: 15px;
+
    }
    .footer h4{
        font-size: 30px;
@@ -125,6 +208,7 @@ header {
        border:1px solid black;
        color:black;
        padding: 15px 32px;
+       border-radius: 25px;
        
    }
  .bottom{
